@@ -1,7 +1,7 @@
 from django.urls import path
 
 
-from post.views import ContactView, BlockView
+from post.views import BlockView
 
 app_name = 'post'
 

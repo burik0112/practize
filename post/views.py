@@ -14,6 +14,3 @@ class BlockView(ListView):
 class BlockDetailsView(TemplateView):
     template_name = 'blog-details.html'
 
-
-class ContactView(TemplateView):
-    template_name = 'contact.html'

@@ -44,9 +44,9 @@
                                         <div class="shop__sidebar__categories">
                                             <ul class="nice-scroll">
                                                 {% for category in categories %}
-                                                <li>
-                                                    <a href="?cat={{ category.pk}}">{{ category.title}}</a>
-                                                </li>
+                                                    <li>
+                                                        <a href="?cat={{ category.pk }}">{{ category.title}}</a>
+                                                    </li>
                                                 {% endfor %}
 
                                             </ul>
@@ -65,7 +65,7 @@
                                             {% for brand in brands %}
                                             <ul>
                                                 <li>
-                                                    <a href="?brand={{ category.pk}}">{{ brand.title}}</a>
+                                                    <a href="?brand={{ brand.pk}}">{{ brand.title}}</a>
                                                 </li>
                                             </ul>
                                             {% endfor %}
@@ -85,7 +85,7 @@
                                             {% for tag in tags %}
                                             <ul>
                                                 <li>
-                                                    <a href="?tag={{ category.pk}}">{{ tag.title}}</a>
+                                                    <a href="?tag={{ tag.pk}}">{{ tag.name }}</a>
                                                 </li>
                                             </ul>
                                             {% endfor %}

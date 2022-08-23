@@ -1,7 +1,7 @@
 from django.urls import path
 
 from pages.views import HomeView, AboutView
-from post.views import ContactView
+from pages.views import ContactView
 
 app_name = 'pages'
 
